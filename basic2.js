@@ -1,7 +1,10 @@
 "use strict";
 console.clear();
+let mynum = 60;
+let userGender = "male";
+console.log(userGender);
 let userId = "vamos";
-console.log(userId);
+// console.log(userId);
 //TODO: union
 let ii;
 ii = "home";

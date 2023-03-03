@@ -1,9 +1,18 @@
 console.clear();
 
+//TODO: type literals
+type specialType = 50 | 60 | 70;
+let mynum: specialType = 60;
+// console.log(mynum);
+
+type gender = "male" | "female";
+let userGender: gender = "male";
+console.log(userGender);
+
 //TODO: type alias
 type typeA = number | string | boolean | undefined;
 let userId: typeA = "vamos";
-console.log(userId);
+// console.log(userId);
 
 //TODO: union
 let ii: number | string;
