@@ -7,7 +7,7 @@ let mynum: specialType = 60;
 
 type gender = "male" | "female";
 let userGender: gender = "male";
-console.log(userGender);
+// console.log(userGender);
 
 //TODO: type alias
 type typeA = number | string | boolean | undefined;
