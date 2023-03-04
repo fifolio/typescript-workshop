@@ -5,14 +5,14 @@ function allowAccess(name) {
     if (name === "lala") {
         return "you can access here";
     }
-    throw new Error("403 - you cannot enter");
+    // throw new Error("403 - you cannot enter");
 }
 const res3 = allowAccess("nova");
 // console.log(res3);
 function throwError() {
     throw new Error("There's an error");
 }
-throwError();
+// throwError();
 //TODO: functions, optional parameter, default parameter,
 function greetUse(word, name, age = "privet") {
     if (name === undefined) {
